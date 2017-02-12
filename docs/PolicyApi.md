@@ -9,7 +9,7 @@ Method | HTTP request | Description
 
 <a name="getPolicyAPIGroup"></a>
 # **getPolicyAPIGroup**
-> V1APIGroup getPolicyAPIGroup()
+> UnversionedAPIGroup getPolicyAPIGroup()
 
 
 
@@ -43,7 +43,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**V1APIGroup**](V1APIGroup.md)
+[**UnversionedAPIGroup**](UnversionedAPIGroup.md)
 
 ### Authorization
 

@@ -9,7 +9,7 @@ Method | HTTP request | Description
 
 <a name="getCoreAPIVersions"></a>
 # **getCoreAPIVersions**
-> V1APIVersions getCoreAPIVersions()
+> UnversionedAPIVersions getCoreAPIVersions()
 
 
 
@@ -43,7 +43,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**V1APIVersions**](V1APIVersions.md)
+[**UnversionedAPIVersions**](UnversionedAPIVersions.md)
 
 ### Authorization
 

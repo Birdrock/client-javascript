@@ -9,8 +9,7 @@ Name | Type | Description | Notes
 **message** | **String** | A human readable message indicating details about why the pod is in this condition. | [optional] 
 **phase** | **String** | Current condition of the pod. More info: http://kubernetes.io/docs/user-guide/pod-states#pod-phase | [optional] 
 **podIP** | **String** | IP address allocated to the pod. Routable at least within the cluster. Empty if not yet allocated. | [optional] 
-**qosClass** | **String** | The Quality of Service (QOS) classification assigned to the pod based on resource requirements See PodQOSClass type for available QOS classes More info: https://github.com/kubernetes/kubernetes/blob/master/docs/design/resource-qos.md | [optional] 
 **reason** | **String** | A brief CamelCase message indicating details about why the pod is in this state. e.g. &#39;OutOfDisk&#39; | [optional] 
-**startTime** | [**V1Time**](V1Time.md) | RFC 3339 date and time at which the object was acknowledged by the Kubelet. This is before the Kubelet pulled the container image(s) for the pod. | [optional] 
+**startTime** | [**UnversionedTime**](UnversionedTime.md) | RFC 3339 date and time at which the object was acknowledged by the Kubelet. This is before the Kubelet pulled the container image(s) for the pod. | [optional] 
 
 

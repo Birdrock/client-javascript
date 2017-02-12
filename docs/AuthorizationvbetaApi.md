@@ -186,7 +186,7 @@ Name | Type | Description  | Notes
 
 <a name="getAuthorizationV1beta1APIResources"></a>
 # **getAuthorizationV1beta1APIResources**
-> V1APIResourceList getAuthorizationV1beta1APIResources()
+> UnversionedAPIResourceList getAuthorizationV1beta1APIResources()
 
 
 
@@ -220,7 +220,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**V1APIResourceList**](V1APIResourceList.md)
+[**UnversionedAPIResourceList**](UnversionedAPIResourceList.md)
 
 ### Authorization
 

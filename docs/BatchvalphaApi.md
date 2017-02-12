@@ -231,7 +231,7 @@ Name | Type | Description  | Notes
 
 <a name="deleteBatchV2alpha1CollectionNamespacedCronJob"></a>
 # **deleteBatchV2alpha1CollectionNamespacedCronJob**
-> V1Status deleteBatchV2alpha1CollectionNamespacedCronJob(namespace, opts)
+> UnversionedStatus deleteBatchV2alpha1CollectionNamespacedCronJob(namespace, opts)
 
 
 
@@ -256,7 +256,7 @@ var opts = {
   'pretty': "pretty_example", // String | If 'true', then the output is pretty printed.
   'fieldSelector': "fieldSelector_example", // String | A selector to restrict the list of returned objects by their fields. Defaults to everything.
   'labelSelector': "labelSelector_example", // String | A selector to restrict the list of returned objects by their labels. Defaults to everything.
-  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it's 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv.
+  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history.
   'timeoutSeconds': 56, // Integer | Timeout for the list/watch call.
   'watch': true // Boolean | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion.
 };
@@ -279,13 +279,13 @@ Name | Type | Description  | Notes
  **pretty** | **String**| If &#39;true&#39;, then the output is pretty printed. | [optional] 
  **fieldSelector** | **String**| A selector to restrict the list of returned objects by their fields. Defaults to everything. | [optional] 
  **labelSelector** | **String**| A selector to restrict the list of returned objects by their labels. Defaults to everything. | [optional] 
- **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it&#39;s 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv. | [optional] 
+ **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. | [optional] 
  **timeoutSeconds** | **Integer**| Timeout for the list/watch call. | [optional] 
  **watch** | **Boolean**| Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. | [optional] 
 
 ### Return type
 
-[**V1Status**](V1Status.md)
+[**UnversionedStatus**](UnversionedStatus.md)
 
 ### Authorization
 
@@ -298,7 +298,7 @@ Name | Type | Description  | Notes
 
 <a name="deleteBatchV2alpha1CollectionNamespacedJob"></a>
 # **deleteBatchV2alpha1CollectionNamespacedJob**
-> V1Status deleteBatchV2alpha1CollectionNamespacedJob(namespace, opts)
+> UnversionedStatus deleteBatchV2alpha1CollectionNamespacedJob(namespace, opts)
 
 
 
@@ -323,7 +323,7 @@ var opts = {
   'pretty': "pretty_example", // String | If 'true', then the output is pretty printed.
   'fieldSelector': "fieldSelector_example", // String | A selector to restrict the list of returned objects by their fields. Defaults to everything.
   'labelSelector': "labelSelector_example", // String | A selector to restrict the list of returned objects by their labels. Defaults to everything.
-  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it's 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv.
+  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history.
   'timeoutSeconds': 56, // Integer | Timeout for the list/watch call.
   'watch': true // Boolean | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion.
 };
@@ -346,13 +346,13 @@ Name | Type | Description  | Notes
  **pretty** | **String**| If &#39;true&#39;, then the output is pretty printed. | [optional] 
  **fieldSelector** | **String**| A selector to restrict the list of returned objects by their fields. Defaults to everything. | [optional] 
  **labelSelector** | **String**| A selector to restrict the list of returned objects by their labels. Defaults to everything. | [optional] 
- **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it&#39;s 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv. | [optional] 
+ **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. | [optional] 
  **timeoutSeconds** | **Integer**| Timeout for the list/watch call. | [optional] 
  **watch** | **Boolean**| Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. | [optional] 
 
 ### Return type
 
-[**V1Status**](V1Status.md)
+[**UnversionedStatus**](UnversionedStatus.md)
 
 ### Authorization
 
@@ -365,7 +365,7 @@ Name | Type | Description  | Notes
 
 <a name="deleteBatchV2alpha1CollectionNamespacedScheduledJob"></a>
 # **deleteBatchV2alpha1CollectionNamespacedScheduledJob**
-> V1Status deleteBatchV2alpha1CollectionNamespacedScheduledJob(namespace, opts)
+> UnversionedStatus deleteBatchV2alpha1CollectionNamespacedScheduledJob(namespace, opts)
 
 
 
@@ -390,7 +390,7 @@ var opts = {
   'pretty': "pretty_example", // String | If 'true', then the output is pretty printed.
   'fieldSelector': "fieldSelector_example", // String | A selector to restrict the list of returned objects by their fields. Defaults to everything.
   'labelSelector': "labelSelector_example", // String | A selector to restrict the list of returned objects by their labels. Defaults to everything.
-  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it's 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv.
+  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history.
   'timeoutSeconds': 56, // Integer | Timeout for the list/watch call.
   'watch': true // Boolean | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion.
 };
@@ -413,13 +413,13 @@ Name | Type | Description  | Notes
  **pretty** | **String**| If &#39;true&#39;, then the output is pretty printed. | [optional] 
  **fieldSelector** | **String**| A selector to restrict the list of returned objects by their fields. Defaults to everything. | [optional] 
  **labelSelector** | **String**| A selector to restrict the list of returned objects by their labels. Defaults to everything. | [optional] 
- **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it&#39;s 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv. | [optional] 
+ **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. | [optional] 
  **timeoutSeconds** | **Integer**| Timeout for the list/watch call. | [optional] 
  **watch** | **Boolean**| Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. | [optional] 
 
 ### Return type
 
-[**V1Status**](V1Status.md)
+[**UnversionedStatus**](UnversionedStatus.md)
 
 ### Authorization
 
@@ -432,7 +432,7 @@ Name | Type | Description  | Notes
 
 <a name="deleteBatchV2alpha1NamespacedCronJob"></a>
 # **deleteBatchV2alpha1NamespacedCronJob**
-> V1Status deleteBatchV2alpha1NamespacedCronJob(name, namespace, body, opts)
+> UnversionedStatus deleteBatchV2alpha1NamespacedCronJob(name, namespace, body, opts)
 
 
 
@@ -486,7 +486,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**V1Status**](V1Status.md)
+[**UnversionedStatus**](UnversionedStatus.md)
 
 ### Authorization
 
@@ -499,7 +499,7 @@ Name | Type | Description  | Notes
 
 <a name="deleteBatchV2alpha1NamespacedJob"></a>
 # **deleteBatchV2alpha1NamespacedJob**
-> V1Status deleteBatchV2alpha1NamespacedJob(name, namespace, body, opts)
+> UnversionedStatus deleteBatchV2alpha1NamespacedJob(name, namespace, body, opts)
 
 
 
@@ -553,7 +553,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**V1Status**](V1Status.md)
+[**UnversionedStatus**](UnversionedStatus.md)
 
 ### Authorization
 
@@ -566,7 +566,7 @@ Name | Type | Description  | Notes
 
 <a name="deleteBatchV2alpha1NamespacedScheduledJob"></a>
 # **deleteBatchV2alpha1NamespacedScheduledJob**
-> V1Status deleteBatchV2alpha1NamespacedScheduledJob(name, namespace, body, opts)
+> UnversionedStatus deleteBatchV2alpha1NamespacedScheduledJob(name, namespace, body, opts)
 
 
 
@@ -620,7 +620,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**V1Status**](V1Status.md)
+[**UnversionedStatus**](UnversionedStatus.md)
 
 ### Authorization
 
@@ -633,7 +633,7 @@ Name | Type | Description  | Notes
 
 <a name="getBatchV2alpha1APIResources"></a>
 # **getBatchV2alpha1APIResources**
-> V1APIResourceList getBatchV2alpha1APIResources()
+> UnversionedAPIResourceList getBatchV2alpha1APIResources()
 
 
 
@@ -667,7 +667,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**V1APIResourceList**](V1APIResourceList.md)
+[**UnversionedAPIResourceList**](UnversionedAPIResourceList.md)
 
 ### Authorization
 
@@ -703,7 +703,7 @@ var opts = {
   'fieldSelector': "fieldSelector_example", // String | A selector to restrict the list of returned objects by their fields. Defaults to everything.
   'labelSelector': "labelSelector_example", // String | A selector to restrict the list of returned objects by their labels. Defaults to everything.
   'pretty': "pretty_example", // String | If 'true', then the output is pretty printed.
-  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it's 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv.
+  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history.
   'timeoutSeconds': 56, // Integer | Timeout for the list/watch call.
   'watch': true // Boolean | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion.
 };
@@ -725,7 +725,7 @@ Name | Type | Description  | Notes
  **fieldSelector** | **String**| A selector to restrict the list of returned objects by their fields. Defaults to everything. | [optional] 
  **labelSelector** | **String**| A selector to restrict the list of returned objects by their labels. Defaults to everything. | [optional] 
  **pretty** | **String**| If &#39;true&#39;, then the output is pretty printed. | [optional] 
- **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it&#39;s 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv. | [optional] 
+ **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. | [optional] 
  **timeoutSeconds** | **Integer**| Timeout for the list/watch call. | [optional] 
  **watch** | **Boolean**| Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. | [optional] 
 
@@ -767,7 +767,7 @@ var opts = {
   'fieldSelector': "fieldSelector_example", // String | A selector to restrict the list of returned objects by their fields. Defaults to everything.
   'labelSelector': "labelSelector_example", // String | A selector to restrict the list of returned objects by their labels. Defaults to everything.
   'pretty': "pretty_example", // String | If 'true', then the output is pretty printed.
-  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it's 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv.
+  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history.
   'timeoutSeconds': 56, // Integer | Timeout for the list/watch call.
   'watch': true // Boolean | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion.
 };
@@ -789,7 +789,7 @@ Name | Type | Description  | Notes
  **fieldSelector** | **String**| A selector to restrict the list of returned objects by their fields. Defaults to everything. | [optional] 
  **labelSelector** | **String**| A selector to restrict the list of returned objects by their labels. Defaults to everything. | [optional] 
  **pretty** | **String**| If &#39;true&#39;, then the output is pretty printed. | [optional] 
- **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it&#39;s 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv. | [optional] 
+ **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. | [optional] 
  **timeoutSeconds** | **Integer**| Timeout for the list/watch call. | [optional] 
  **watch** | **Boolean**| Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. | [optional] 
 
@@ -833,7 +833,7 @@ var opts = {
   'pretty': "pretty_example", // String | If 'true', then the output is pretty printed.
   'fieldSelector': "fieldSelector_example", // String | A selector to restrict the list of returned objects by their fields. Defaults to everything.
   'labelSelector': "labelSelector_example", // String | A selector to restrict the list of returned objects by their labels. Defaults to everything.
-  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it's 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv.
+  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history.
   'timeoutSeconds': 56, // Integer | Timeout for the list/watch call.
   'watch': true // Boolean | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion.
 };
@@ -856,7 +856,7 @@ Name | Type | Description  | Notes
  **pretty** | **String**| If &#39;true&#39;, then the output is pretty printed. | [optional] 
  **fieldSelector** | **String**| A selector to restrict the list of returned objects by their fields. Defaults to everything. | [optional] 
  **labelSelector** | **String**| A selector to restrict the list of returned objects by their labels. Defaults to everything. | [optional] 
- **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it&#39;s 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv. | [optional] 
+ **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. | [optional] 
  **timeoutSeconds** | **Integer**| Timeout for the list/watch call. | [optional] 
  **watch** | **Boolean**| Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. | [optional] 
 
@@ -900,7 +900,7 @@ var opts = {
   'pretty': "pretty_example", // String | If 'true', then the output is pretty printed.
   'fieldSelector': "fieldSelector_example", // String | A selector to restrict the list of returned objects by their fields. Defaults to everything.
   'labelSelector': "labelSelector_example", // String | A selector to restrict the list of returned objects by their labels. Defaults to everything.
-  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it's 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv.
+  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history.
   'timeoutSeconds': 56, // Integer | Timeout for the list/watch call.
   'watch': true // Boolean | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion.
 };
@@ -923,7 +923,7 @@ Name | Type | Description  | Notes
  **pretty** | **String**| If &#39;true&#39;, then the output is pretty printed. | [optional] 
  **fieldSelector** | **String**| A selector to restrict the list of returned objects by their fields. Defaults to everything. | [optional] 
  **labelSelector** | **String**| A selector to restrict the list of returned objects by their labels. Defaults to everything. | [optional] 
- **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it&#39;s 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv. | [optional] 
+ **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. | [optional] 
  **timeoutSeconds** | **Integer**| Timeout for the list/watch call. | [optional] 
  **watch** | **Boolean**| Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. | [optional] 
 
@@ -967,7 +967,7 @@ var opts = {
   'pretty': "pretty_example", // String | If 'true', then the output is pretty printed.
   'fieldSelector': "fieldSelector_example", // String | A selector to restrict the list of returned objects by their fields. Defaults to everything.
   'labelSelector': "labelSelector_example", // String | A selector to restrict the list of returned objects by their labels. Defaults to everything.
-  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it's 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv.
+  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history.
   'timeoutSeconds': 56, // Integer | Timeout for the list/watch call.
   'watch': true // Boolean | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion.
 };
@@ -990,7 +990,7 @@ Name | Type | Description  | Notes
  **pretty** | **String**| If &#39;true&#39;, then the output is pretty printed. | [optional] 
  **fieldSelector** | **String**| A selector to restrict the list of returned objects by their fields. Defaults to everything. | [optional] 
  **labelSelector** | **String**| A selector to restrict the list of returned objects by their labels. Defaults to everything. | [optional] 
- **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it&#39;s 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv. | [optional] 
+ **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. | [optional] 
  **timeoutSeconds** | **Integer**| Timeout for the list/watch call. | [optional] 
  **watch** | **Boolean**| Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. | [optional] 
 
@@ -1032,7 +1032,7 @@ var opts = {
   'fieldSelector': "fieldSelector_example", // String | A selector to restrict the list of returned objects by their fields. Defaults to everything.
   'labelSelector': "labelSelector_example", // String | A selector to restrict the list of returned objects by their labels. Defaults to everything.
   'pretty': "pretty_example", // String | If 'true', then the output is pretty printed.
-  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it's 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv.
+  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history.
   'timeoutSeconds': 56, // Integer | Timeout for the list/watch call.
   'watch': true // Boolean | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion.
 };
@@ -1054,7 +1054,7 @@ Name | Type | Description  | Notes
  **fieldSelector** | **String**| A selector to restrict the list of returned objects by their fields. Defaults to everything. | [optional] 
  **labelSelector** | **String**| A selector to restrict the list of returned objects by their labels. Defaults to everything. | [optional] 
  **pretty** | **String**| If &#39;true&#39;, then the output is pretty printed. | [optional] 
- **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it&#39;s 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv. | [optional] 
+ **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. | [optional] 
  **timeoutSeconds** | **Integer**| Timeout for the list/watch call. | [optional] 
  **watch** | **Boolean**| Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. | [optional] 
 
@@ -1096,7 +1096,7 @@ var name = "name_example"; // String | name of the CronJob
 
 var namespace = "namespace_example"; // String | object name and auth scope, such as for teams and projects
 
-var body = new Kubernetes.V1Patch(); // V1Patch | 
+var body = new Kubernetes.UnversionedPatch(); // UnversionedPatch | 
 
 var opts = { 
   'pretty': "pretty_example" // String | If 'true', then the output is pretty printed.
@@ -1118,7 +1118,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **name** | **String**| name of the CronJob | 
  **namespace** | **String**| object name and auth scope, such as for teams and projects | 
- **body** | [**V1Patch**](V1Patch.md)|  | 
+ **body** | [**UnversionedPatch**](UnversionedPatch.md)|  | 
  **pretty** | **String**| If &#39;true&#39;, then the output is pretty printed. | [optional] 
 
 ### Return type
@@ -1159,7 +1159,7 @@ var name = "name_example"; // String | name of the CronJob
 
 var namespace = "namespace_example"; // String | object name and auth scope, such as for teams and projects
 
-var body = new Kubernetes.V1Patch(); // V1Patch | 
+var body = new Kubernetes.UnversionedPatch(); // UnversionedPatch | 
 
 var opts = { 
   'pretty': "pretty_example" // String | If 'true', then the output is pretty printed.
@@ -1181,7 +1181,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **name** | **String**| name of the CronJob | 
  **namespace** | **String**| object name and auth scope, such as for teams and projects | 
- **body** | [**V1Patch**](V1Patch.md)|  | 
+ **body** | [**UnversionedPatch**](UnversionedPatch.md)|  | 
  **pretty** | **String**| If &#39;true&#39;, then the output is pretty printed. | [optional] 
 
 ### Return type
@@ -1222,7 +1222,7 @@ var name = "name_example"; // String | name of the Job
 
 var namespace = "namespace_example"; // String | object name and auth scope, such as for teams and projects
 
-var body = new Kubernetes.V1Patch(); // V1Patch | 
+var body = new Kubernetes.UnversionedPatch(); // UnversionedPatch | 
 
 var opts = { 
   'pretty': "pretty_example" // String | If 'true', then the output is pretty printed.
@@ -1244,7 +1244,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **name** | **String**| name of the Job | 
  **namespace** | **String**| object name and auth scope, such as for teams and projects | 
- **body** | [**V1Patch**](V1Patch.md)|  | 
+ **body** | [**UnversionedPatch**](UnversionedPatch.md)|  | 
  **pretty** | **String**| If &#39;true&#39;, then the output is pretty printed. | [optional] 
 
 ### Return type
@@ -1285,7 +1285,7 @@ var name = "name_example"; // String | name of the Job
 
 var namespace = "namespace_example"; // String | object name and auth scope, such as for teams and projects
 
-var body = new Kubernetes.V1Patch(); // V1Patch | 
+var body = new Kubernetes.UnversionedPatch(); // UnversionedPatch | 
 
 var opts = { 
   'pretty': "pretty_example" // String | If 'true', then the output is pretty printed.
@@ -1307,7 +1307,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **name** | **String**| name of the Job | 
  **namespace** | **String**| object name and auth scope, such as for teams and projects | 
- **body** | [**V1Patch**](V1Patch.md)|  | 
+ **body** | [**UnversionedPatch**](UnversionedPatch.md)|  | 
  **pretty** | **String**| If &#39;true&#39;, then the output is pretty printed. | [optional] 
 
 ### Return type
@@ -1348,7 +1348,7 @@ var name = "name_example"; // String | name of the ScheduledJob
 
 var namespace = "namespace_example"; // String | object name and auth scope, such as for teams and projects
 
-var body = new Kubernetes.V1Patch(); // V1Patch | 
+var body = new Kubernetes.UnversionedPatch(); // UnversionedPatch | 
 
 var opts = { 
   'pretty': "pretty_example" // String | If 'true', then the output is pretty printed.
@@ -1370,7 +1370,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **name** | **String**| name of the ScheduledJob | 
  **namespace** | **String**| object name and auth scope, such as for teams and projects | 
- **body** | [**V1Patch**](V1Patch.md)|  | 
+ **body** | [**UnversionedPatch**](UnversionedPatch.md)|  | 
  **pretty** | **String**| If &#39;true&#39;, then the output is pretty printed. | [optional] 
 
 ### Return type
@@ -1411,7 +1411,7 @@ var name = "name_example"; // String | name of the ScheduledJob
 
 var namespace = "namespace_example"; // String | object name and auth scope, such as for teams and projects
 
-var body = new Kubernetes.V1Patch(); // V1Patch | 
+var body = new Kubernetes.UnversionedPatch(); // UnversionedPatch | 
 
 var opts = { 
   'pretty': "pretty_example" // String | If 'true', then the output is pretty printed.
@@ -1433,7 +1433,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **name** | **String**| name of the ScheduledJob | 
  **namespace** | **String**| object name and auth scope, such as for teams and projects | 
- **body** | [**V1Patch**](V1Patch.md)|  | 
+ **body** | [**UnversionedPatch**](UnversionedPatch.md)|  | 
  **pretty** | **String**| If &#39;true&#39;, then the output is pretty printed. | [optional] 
 
 ### Return type
@@ -1476,7 +1476,7 @@ var namespace = "namespace_example"; // String | object name and auth scope, suc
 
 var opts = { 
   'pretty': "pretty_example" // String | If 'true', then the output is pretty printed.
-  'exact': true, // Boolean | Should the export be exact.  Exact export maintains cluster-specific fields like 'Namespace'.
+  'exact': true, // Boolean | Should the export be exact.  Exact export maintains cluster-specific fields like 'Namespace'
   '_export': true // Boolean | Should this value be exported.  Export strips fields that a user can not specify.
 };
 
@@ -1497,7 +1497,7 @@ Name | Type | Description  | Notes
  **name** | **String**| name of the CronJob | 
  **namespace** | **String**| object name and auth scope, such as for teams and projects | 
  **pretty** | **String**| If &#39;true&#39;, then the output is pretty printed. | [optional] 
- **exact** | **Boolean**| Should the export be exact.  Exact export maintains cluster-specific fields like &#39;Namespace&#39;. | [optional] 
+ **exact** | **Boolean**| Should the export be exact.  Exact export maintains cluster-specific fields like &#39;Namespace&#39; | [optional] 
  **_export** | **Boolean**| Should this value be exported.  Export strips fields that a user can not specify. | [optional] 
 
 ### Return type
@@ -1600,7 +1600,7 @@ var namespace = "namespace_example"; // String | object name and auth scope, suc
 
 var opts = { 
   'pretty': "pretty_example" // String | If 'true', then the output is pretty printed.
-  'exact': true, // Boolean | Should the export be exact.  Exact export maintains cluster-specific fields like 'Namespace'.
+  'exact': true, // Boolean | Should the export be exact.  Exact export maintains cluster-specific fields like 'Namespace'
   '_export': true // Boolean | Should this value be exported.  Export strips fields that a user can not specify.
 };
 
@@ -1621,7 +1621,7 @@ Name | Type | Description  | Notes
  **name** | **String**| name of the Job | 
  **namespace** | **String**| object name and auth scope, such as for teams and projects | 
  **pretty** | **String**| If &#39;true&#39;, then the output is pretty printed. | [optional] 
- **exact** | **Boolean**| Should the export be exact.  Exact export maintains cluster-specific fields like &#39;Namespace&#39;. | [optional] 
+ **exact** | **Boolean**| Should the export be exact.  Exact export maintains cluster-specific fields like &#39;Namespace&#39; | [optional] 
  **_export** | **Boolean**| Should this value be exported.  Export strips fields that a user can not specify. | [optional] 
 
 ### Return type
@@ -1724,7 +1724,7 @@ var namespace = "namespace_example"; // String | object name and auth scope, suc
 
 var opts = { 
   'pretty': "pretty_example" // String | If 'true', then the output is pretty printed.
-  'exact': true, // Boolean | Should the export be exact.  Exact export maintains cluster-specific fields like 'Namespace'.
+  'exact': true, // Boolean | Should the export be exact.  Exact export maintains cluster-specific fields like 'Namespace'
   '_export': true // Boolean | Should this value be exported.  Export strips fields that a user can not specify.
 };
 
@@ -1745,7 +1745,7 @@ Name | Type | Description  | Notes
  **name** | **String**| name of the ScheduledJob | 
  **namespace** | **String**| object name and auth scope, such as for teams and projects | 
  **pretty** | **String**| If &#39;true&#39;, then the output is pretty printed. | [optional] 
- **exact** | **Boolean**| Should the export be exact.  Exact export maintains cluster-specific fields like &#39;Namespace&#39;. | [optional] 
+ **exact** | **Boolean**| Should the export be exact.  Exact export maintains cluster-specific fields like &#39;Namespace&#39; | [optional] 
  **_export** | **Boolean**| Should this value be exported.  Export strips fields that a user can not specify. | [optional] 
 
 ### Return type
@@ -2201,7 +2201,7 @@ Name | Type | Description  | Notes
 
 <a name="watchBatchV2alpha1CronJobListForAllNamespaces"></a>
 # **watchBatchV2alpha1CronJobListForAllNamespaces**
-> V1WatchEvent watchBatchV2alpha1CronJobListForAllNamespaces(opts)
+> VersionedEvent watchBatchV2alpha1CronJobListForAllNamespaces(opts)
 
 
 
@@ -2224,7 +2224,7 @@ var opts = {
   'fieldSelector': "fieldSelector_example", // String | A selector to restrict the list of returned objects by their fields. Defaults to everything.
   'labelSelector': "labelSelector_example", // String | A selector to restrict the list of returned objects by their labels. Defaults to everything.
   'pretty': "pretty_example", // String | If 'true', then the output is pretty printed.
-  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it's 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv.
+  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history.
   'timeoutSeconds': 56, // Integer | Timeout for the list/watch call.
   'watch': true // Boolean | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion.
 };
@@ -2246,13 +2246,13 @@ Name | Type | Description  | Notes
  **fieldSelector** | **String**| A selector to restrict the list of returned objects by their fields. Defaults to everything. | [optional] 
  **labelSelector** | **String**| A selector to restrict the list of returned objects by their labels. Defaults to everything. | [optional] 
  **pretty** | **String**| If &#39;true&#39;, then the output is pretty printed. | [optional] 
- **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it&#39;s 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv. | [optional] 
+ **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. | [optional] 
  **timeoutSeconds** | **Integer**| Timeout for the list/watch call. | [optional] 
  **watch** | **Boolean**| Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. | [optional] 
 
 ### Return type
 
-[**V1WatchEvent**](V1WatchEvent.md)
+[**VersionedEvent**](VersionedEvent.md)
 
 ### Authorization
 
@@ -2265,7 +2265,7 @@ Name | Type | Description  | Notes
 
 <a name="watchBatchV2alpha1JobListForAllNamespaces"></a>
 # **watchBatchV2alpha1JobListForAllNamespaces**
-> V1WatchEvent watchBatchV2alpha1JobListForAllNamespaces(opts)
+> VersionedEvent watchBatchV2alpha1JobListForAllNamespaces(opts)
 
 
 
@@ -2288,7 +2288,7 @@ var opts = {
   'fieldSelector': "fieldSelector_example", // String | A selector to restrict the list of returned objects by their fields. Defaults to everything.
   'labelSelector': "labelSelector_example", // String | A selector to restrict the list of returned objects by their labels. Defaults to everything.
   'pretty': "pretty_example", // String | If 'true', then the output is pretty printed.
-  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it's 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv.
+  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history.
   'timeoutSeconds': 56, // Integer | Timeout for the list/watch call.
   'watch': true // Boolean | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion.
 };
@@ -2310,13 +2310,13 @@ Name | Type | Description  | Notes
  **fieldSelector** | **String**| A selector to restrict the list of returned objects by their fields. Defaults to everything. | [optional] 
  **labelSelector** | **String**| A selector to restrict the list of returned objects by their labels. Defaults to everything. | [optional] 
  **pretty** | **String**| If &#39;true&#39;, then the output is pretty printed. | [optional] 
- **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it&#39;s 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv. | [optional] 
+ **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. | [optional] 
  **timeoutSeconds** | **Integer**| Timeout for the list/watch call. | [optional] 
  **watch** | **Boolean**| Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. | [optional] 
 
 ### Return type
 
-[**V1WatchEvent**](V1WatchEvent.md)
+[**VersionedEvent**](VersionedEvent.md)
 
 ### Authorization
 
@@ -2329,7 +2329,7 @@ Name | Type | Description  | Notes
 
 <a name="watchBatchV2alpha1NamespacedCronJob"></a>
 # **watchBatchV2alpha1NamespacedCronJob**
-> V1WatchEvent watchBatchV2alpha1NamespacedCronJob(name, namespace, opts)
+> VersionedEvent watchBatchV2alpha1NamespacedCronJob(name, namespace, opts)
 
 
 
@@ -2356,7 +2356,7 @@ var opts = {
   'fieldSelector': "fieldSelector_example", // String | A selector to restrict the list of returned objects by their fields. Defaults to everything.
   'labelSelector': "labelSelector_example", // String | A selector to restrict the list of returned objects by their labels. Defaults to everything.
   'pretty': "pretty_example", // String | If 'true', then the output is pretty printed.
-  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it's 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv.
+  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history.
   'timeoutSeconds': 56, // Integer | Timeout for the list/watch call.
   'watch': true // Boolean | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion.
 };
@@ -2380,13 +2380,13 @@ Name | Type | Description  | Notes
  **fieldSelector** | **String**| A selector to restrict the list of returned objects by their fields. Defaults to everything. | [optional] 
  **labelSelector** | **String**| A selector to restrict the list of returned objects by their labels. Defaults to everything. | [optional] 
  **pretty** | **String**| If &#39;true&#39;, then the output is pretty printed. | [optional] 
- **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it&#39;s 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv. | [optional] 
+ **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. | [optional] 
  **timeoutSeconds** | **Integer**| Timeout for the list/watch call. | [optional] 
  **watch** | **Boolean**| Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. | [optional] 
 
 ### Return type
 
-[**V1WatchEvent**](V1WatchEvent.md)
+[**VersionedEvent**](VersionedEvent.md)
 
 ### Authorization
 
@@ -2399,7 +2399,7 @@ Name | Type | Description  | Notes
 
 <a name="watchBatchV2alpha1NamespacedCronJobList"></a>
 # **watchBatchV2alpha1NamespacedCronJobList**
-> V1WatchEvent watchBatchV2alpha1NamespacedCronJobList(namespace, opts)
+> VersionedEvent watchBatchV2alpha1NamespacedCronJobList(namespace, opts)
 
 
 
@@ -2424,7 +2424,7 @@ var opts = {
   'fieldSelector': "fieldSelector_example", // String | A selector to restrict the list of returned objects by their fields. Defaults to everything.
   'labelSelector': "labelSelector_example", // String | A selector to restrict the list of returned objects by their labels. Defaults to everything.
   'pretty': "pretty_example", // String | If 'true', then the output is pretty printed.
-  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it's 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv.
+  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history.
   'timeoutSeconds': 56, // Integer | Timeout for the list/watch call.
   'watch': true // Boolean | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion.
 };
@@ -2447,13 +2447,13 @@ Name | Type | Description  | Notes
  **fieldSelector** | **String**| A selector to restrict the list of returned objects by their fields. Defaults to everything. | [optional] 
  **labelSelector** | **String**| A selector to restrict the list of returned objects by their labels. Defaults to everything. | [optional] 
  **pretty** | **String**| If &#39;true&#39;, then the output is pretty printed. | [optional] 
- **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it&#39;s 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv. | [optional] 
+ **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. | [optional] 
  **timeoutSeconds** | **Integer**| Timeout for the list/watch call. | [optional] 
  **watch** | **Boolean**| Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. | [optional] 
 
 ### Return type
 
-[**V1WatchEvent**](V1WatchEvent.md)
+[**VersionedEvent**](VersionedEvent.md)
 
 ### Authorization
 
@@ -2466,7 +2466,7 @@ Name | Type | Description  | Notes
 
 <a name="watchBatchV2alpha1NamespacedJob"></a>
 # **watchBatchV2alpha1NamespacedJob**
-> V1WatchEvent watchBatchV2alpha1NamespacedJob(name, namespace, opts)
+> VersionedEvent watchBatchV2alpha1NamespacedJob(name, namespace, opts)
 
 
 
@@ -2493,7 +2493,7 @@ var opts = {
   'fieldSelector': "fieldSelector_example", // String | A selector to restrict the list of returned objects by their fields. Defaults to everything.
   'labelSelector': "labelSelector_example", // String | A selector to restrict the list of returned objects by their labels. Defaults to everything.
   'pretty': "pretty_example", // String | If 'true', then the output is pretty printed.
-  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it's 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv.
+  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history.
   'timeoutSeconds': 56, // Integer | Timeout for the list/watch call.
   'watch': true // Boolean | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion.
 };
@@ -2517,13 +2517,13 @@ Name | Type | Description  | Notes
  **fieldSelector** | **String**| A selector to restrict the list of returned objects by their fields. Defaults to everything. | [optional] 
  **labelSelector** | **String**| A selector to restrict the list of returned objects by their labels. Defaults to everything. | [optional] 
  **pretty** | **String**| If &#39;true&#39;, then the output is pretty printed. | [optional] 
- **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it&#39;s 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv. | [optional] 
+ **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. | [optional] 
  **timeoutSeconds** | **Integer**| Timeout for the list/watch call. | [optional] 
  **watch** | **Boolean**| Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. | [optional] 
 
 ### Return type
 
-[**V1WatchEvent**](V1WatchEvent.md)
+[**VersionedEvent**](VersionedEvent.md)
 
 ### Authorization
 
@@ -2536,7 +2536,7 @@ Name | Type | Description  | Notes
 
 <a name="watchBatchV2alpha1NamespacedJobList"></a>
 # **watchBatchV2alpha1NamespacedJobList**
-> V1WatchEvent watchBatchV2alpha1NamespacedJobList(namespace, opts)
+> VersionedEvent watchBatchV2alpha1NamespacedJobList(namespace, opts)
 
 
 
@@ -2561,7 +2561,7 @@ var opts = {
   'fieldSelector': "fieldSelector_example", // String | A selector to restrict the list of returned objects by their fields. Defaults to everything.
   'labelSelector': "labelSelector_example", // String | A selector to restrict the list of returned objects by their labels. Defaults to everything.
   'pretty': "pretty_example", // String | If 'true', then the output is pretty printed.
-  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it's 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv.
+  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history.
   'timeoutSeconds': 56, // Integer | Timeout for the list/watch call.
   'watch': true // Boolean | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion.
 };
@@ -2584,13 +2584,13 @@ Name | Type | Description  | Notes
  **fieldSelector** | **String**| A selector to restrict the list of returned objects by their fields. Defaults to everything. | [optional] 
  **labelSelector** | **String**| A selector to restrict the list of returned objects by their labels. Defaults to everything. | [optional] 
  **pretty** | **String**| If &#39;true&#39;, then the output is pretty printed. | [optional] 
- **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it&#39;s 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv. | [optional] 
+ **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. | [optional] 
  **timeoutSeconds** | **Integer**| Timeout for the list/watch call. | [optional] 
  **watch** | **Boolean**| Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. | [optional] 
 
 ### Return type
 
-[**V1WatchEvent**](V1WatchEvent.md)
+[**VersionedEvent**](VersionedEvent.md)
 
 ### Authorization
 
@@ -2603,7 +2603,7 @@ Name | Type | Description  | Notes
 
 <a name="watchBatchV2alpha1NamespacedScheduledJob"></a>
 # **watchBatchV2alpha1NamespacedScheduledJob**
-> V1WatchEvent watchBatchV2alpha1NamespacedScheduledJob(name, namespace, opts)
+> VersionedEvent watchBatchV2alpha1NamespacedScheduledJob(name, namespace, opts)
 
 
 
@@ -2630,7 +2630,7 @@ var opts = {
   'fieldSelector': "fieldSelector_example", // String | A selector to restrict the list of returned objects by their fields. Defaults to everything.
   'labelSelector': "labelSelector_example", // String | A selector to restrict the list of returned objects by their labels. Defaults to everything.
   'pretty': "pretty_example", // String | If 'true', then the output is pretty printed.
-  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it's 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv.
+  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history.
   'timeoutSeconds': 56, // Integer | Timeout for the list/watch call.
   'watch': true // Boolean | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion.
 };
@@ -2654,13 +2654,13 @@ Name | Type | Description  | Notes
  **fieldSelector** | **String**| A selector to restrict the list of returned objects by their fields. Defaults to everything. | [optional] 
  **labelSelector** | **String**| A selector to restrict the list of returned objects by their labels. Defaults to everything. | [optional] 
  **pretty** | **String**| If &#39;true&#39;, then the output is pretty printed. | [optional] 
- **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it&#39;s 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv. | [optional] 
+ **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. | [optional] 
  **timeoutSeconds** | **Integer**| Timeout for the list/watch call. | [optional] 
  **watch** | **Boolean**| Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. | [optional] 
 
 ### Return type
 
-[**V1WatchEvent**](V1WatchEvent.md)
+[**VersionedEvent**](VersionedEvent.md)
 
 ### Authorization
 
@@ -2673,7 +2673,7 @@ Name | Type | Description  | Notes
 
 <a name="watchBatchV2alpha1NamespacedScheduledJobList"></a>
 # **watchBatchV2alpha1NamespacedScheduledJobList**
-> V1WatchEvent watchBatchV2alpha1NamespacedScheduledJobList(namespace, opts)
+> VersionedEvent watchBatchV2alpha1NamespacedScheduledJobList(namespace, opts)
 
 
 
@@ -2698,7 +2698,7 @@ var opts = {
   'fieldSelector': "fieldSelector_example", // String | A selector to restrict the list of returned objects by their fields. Defaults to everything.
   'labelSelector': "labelSelector_example", // String | A selector to restrict the list of returned objects by their labels. Defaults to everything.
   'pretty': "pretty_example", // String | If 'true', then the output is pretty printed.
-  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it's 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv.
+  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history.
   'timeoutSeconds': 56, // Integer | Timeout for the list/watch call.
   'watch': true // Boolean | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion.
 };
@@ -2721,13 +2721,13 @@ Name | Type | Description  | Notes
  **fieldSelector** | **String**| A selector to restrict the list of returned objects by their fields. Defaults to everything. | [optional] 
  **labelSelector** | **String**| A selector to restrict the list of returned objects by their labels. Defaults to everything. | [optional] 
  **pretty** | **String**| If &#39;true&#39;, then the output is pretty printed. | [optional] 
- **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it&#39;s 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv. | [optional] 
+ **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. | [optional] 
  **timeoutSeconds** | **Integer**| Timeout for the list/watch call. | [optional] 
  **watch** | **Boolean**| Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. | [optional] 
 
 ### Return type
 
-[**V1WatchEvent**](V1WatchEvent.md)
+[**VersionedEvent**](VersionedEvent.md)
 
 ### Authorization
 
@@ -2740,7 +2740,7 @@ Name | Type | Description  | Notes
 
 <a name="watchBatchV2alpha1ScheduledJobListForAllNamespaces"></a>
 # **watchBatchV2alpha1ScheduledJobListForAllNamespaces**
-> V1WatchEvent watchBatchV2alpha1ScheduledJobListForAllNamespaces(opts)
+> VersionedEvent watchBatchV2alpha1ScheduledJobListForAllNamespaces(opts)
 
 
 
@@ -2763,7 +2763,7 @@ var opts = {
   'fieldSelector': "fieldSelector_example", // String | A selector to restrict the list of returned objects by their fields. Defaults to everything.
   'labelSelector': "labelSelector_example", // String | A selector to restrict the list of returned objects by their labels. Defaults to everything.
   'pretty': "pretty_example", // String | If 'true', then the output is pretty printed.
-  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it's 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv.
+  'resourceVersion': "resourceVersion_example", // String | When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history.
   'timeoutSeconds': 56, // Integer | Timeout for the list/watch call.
   'watch': true // Boolean | Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion.
 };
@@ -2785,13 +2785,13 @@ Name | Type | Description  | Notes
  **fieldSelector** | **String**| A selector to restrict the list of returned objects by their fields. Defaults to everything. | [optional] 
  **labelSelector** | **String**| A selector to restrict the list of returned objects by their labels. Defaults to everything. | [optional] 
  **pretty** | **String**| If &#39;true&#39;, then the output is pretty printed. | [optional] 
- **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. When specified for list: - if unset, then the result is returned from remote storage based on quorum-read flag; - if it&#39;s 0, then we simply return what we currently have in cache, no guarantee; - if set to non zero, then the result is at least as fresh as given rv. | [optional] 
+ **resourceVersion** | **String**| When specified with a watch call, shows changes that occur after that particular version of a resource. Defaults to changes from the beginning of history. | [optional] 
  **timeoutSeconds** | **Integer**| Timeout for the list/watch call. | [optional] 
  **watch** | **Boolean**| Watch for changes to the described resources and return them as a stream of add, update, and remove notifications. Specify resourceVersion. | [optional] 
 
 ### Return type
 
-[**V1WatchEvent**](V1WatchEvent.md)
+[**VersionedEvent**](VersionedEvent.md)
 
 ### Authorization
 

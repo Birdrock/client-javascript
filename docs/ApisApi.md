@@ -9,7 +9,7 @@ Method | HTTP request | Description
 
 <a name="getAPIVersions"></a>
 # **getAPIVersions**
-> V1APIGroupList getAPIVersions()
+> UnversionedAPIGroupList getAPIVersions()
 
 
 
@@ -43,7 +43,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**V1APIGroupList**](V1APIGroupList.md)
+[**UnversionedAPIGroupList**](UnversionedAPIGroupList.md)
 
 ### Authorization
 
