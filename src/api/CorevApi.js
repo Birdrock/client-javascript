@@ -101,8 +101,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -164,8 +164,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -220,8 +220,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -283,8 +283,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -332,8 +332,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -388,8 +388,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -452,8 +452,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -518,8 +518,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -570,8 +570,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -626,8 +626,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -689,8 +689,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -745,8 +745,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -808,8 +808,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -857,8 +857,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -913,8 +913,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -969,8 +969,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -1032,8 +1032,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -1088,8 +1088,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -1151,8 +1151,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -1200,8 +1200,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -1256,8 +1256,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -1312,8 +1312,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -1375,8 +1375,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -1431,8 +1431,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -1494,8 +1494,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -1543,8 +1543,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -1599,8 +1599,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -1663,8 +1663,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -1729,8 +1729,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -1781,8 +1781,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -1837,8 +1837,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -1900,8 +1900,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -1956,8 +1956,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -2019,8 +2019,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -2068,8 +2068,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -2124,8 +2124,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -2180,8 +2180,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -2243,8 +2243,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -2299,8 +2299,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -2362,8 +2362,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -2411,8 +2411,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -2467,8 +2467,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -2515,7 +2515,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1Namespace;
 
@@ -2570,7 +2570,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1Binding;
 
@@ -2632,7 +2632,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1Binding;
 
@@ -2687,7 +2687,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1ConfigMap;
 
@@ -2742,7 +2742,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1Endpoints;
 
@@ -2797,7 +2797,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1Event;
 
@@ -2859,7 +2859,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1beta1Eviction;
 
@@ -2914,7 +2914,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1LimitRange;
 
@@ -2969,7 +2969,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1PersistentVolumeClaim;
 
@@ -3024,7 +3024,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1Pod;
 
@@ -3079,7 +3079,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1PodTemplate;
 
@@ -3134,7 +3134,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1ReplicationController;
 
@@ -3189,7 +3189,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1ResourceQuota;
 
@@ -3244,7 +3244,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1Secret;
 
@@ -3299,7 +3299,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1Service;
 
@@ -3354,7 +3354,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1ServiceAccount;
 
@@ -3402,7 +3402,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1Node;
 
@@ -3450,7 +3450,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1PersistentVolume;
 
@@ -3502,7 +3502,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = UnversionedStatus;
 
@@ -3561,7 +3561,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = UnversionedStatus;
 
@@ -3620,7 +3620,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = UnversionedStatus;
 
@@ -3679,7 +3679,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = UnversionedStatus;
 
@@ -3738,7 +3738,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = UnversionedStatus;
 
@@ -3797,7 +3797,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = UnversionedStatus;
 
@@ -3856,7 +3856,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = UnversionedStatus;
 
@@ -3915,7 +3915,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = UnversionedStatus;
 
@@ -3974,7 +3974,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = UnversionedStatus;
 
@@ -4033,7 +4033,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = UnversionedStatus;
 
@@ -4092,7 +4092,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = UnversionedStatus;
 
@@ -4151,7 +4151,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = UnversionedStatus;
 
@@ -4203,7 +4203,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = UnversionedStatus;
 
@@ -4255,7 +4255,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = UnversionedStatus;
 
@@ -4314,7 +4314,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = UnversionedStatus;
 
@@ -4380,7 +4380,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = UnversionedStatus;
 
@@ -4446,7 +4446,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = UnversionedStatus;
 
@@ -4512,7 +4512,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = UnversionedStatus;
 
@@ -4578,7 +4578,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = UnversionedStatus;
 
@@ -4644,7 +4644,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = UnversionedStatus;
 
@@ -4710,7 +4710,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = UnversionedStatus;
 
@@ -4776,7 +4776,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = UnversionedStatus;
 
@@ -4842,7 +4842,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = UnversionedStatus;
 
@@ -4908,7 +4908,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = UnversionedStatus;
 
@@ -4974,7 +4974,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = UnversionedStatus;
 
@@ -5030,7 +5030,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = UnversionedStatus;
 
@@ -5096,7 +5096,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = UnversionedStatus;
 
@@ -5155,7 +5155,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = UnversionedStatus;
 
@@ -5214,7 +5214,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = UnversionedStatus;
 
@@ -5304,7 +5304,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = V1ComponentStatusList;
 
@@ -5356,7 +5356,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = V1ConfigMapList;
 
@@ -5408,7 +5408,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = V1EndpointsList;
 
@@ -5460,7 +5460,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = V1EventList;
 
@@ -5512,7 +5512,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = V1LimitRangeList;
 
@@ -5564,7 +5564,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = V1NamespaceList;
 
@@ -5623,7 +5623,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = V1ConfigMapList;
 
@@ -5682,7 +5682,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = V1EndpointsList;
 
@@ -5741,7 +5741,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = V1EventList;
 
@@ -5800,7 +5800,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = V1LimitRangeList;
 
@@ -5859,7 +5859,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = V1PersistentVolumeClaimList;
 
@@ -5918,7 +5918,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = V1PodList;
 
@@ -5977,7 +5977,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = V1PodTemplateList;
 
@@ -6036,7 +6036,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = V1ReplicationControllerList;
 
@@ -6095,7 +6095,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = V1ResourceQuotaList;
 
@@ -6154,7 +6154,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = V1SecretList;
 
@@ -6213,7 +6213,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = V1ServiceList;
 
@@ -6272,7 +6272,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = V1ServiceAccountList;
 
@@ -6324,7 +6324,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = V1NodeList;
 
@@ -6376,7 +6376,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = V1PersistentVolumeList;
 
@@ -6428,7 +6428,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = V1PersistentVolumeClaimList;
 
@@ -6480,7 +6480,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = V1PodList;
 
@@ -6532,7 +6532,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = V1PodTemplateList;
 
@@ -6584,7 +6584,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = V1ReplicationControllerList;
 
@@ -6636,7 +6636,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = V1ResourceQuotaList;
 
@@ -6688,7 +6688,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = V1SecretList;
 
@@ -6740,7 +6740,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = V1ServiceAccountList;
 
@@ -6792,7 +6792,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = V1ServiceList;
 
@@ -8290,8 +8290,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -8349,8 +8349,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -8401,8 +8401,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -8460,8 +8460,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -8505,8 +8505,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -8557,8 +8557,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -8609,8 +8609,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -8668,8 +8668,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -8720,8 +8720,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -8779,8 +8779,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -8824,8 +8824,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -8876,8 +8876,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -8928,8 +8928,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -8987,8 +8987,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -9039,8 +9039,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -9098,8 +9098,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -9143,8 +9143,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -9195,8 +9195,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -9247,8 +9247,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -9306,8 +9306,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -9358,8 +9358,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -9417,8 +9417,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -9462,8 +9462,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -9514,8 +9514,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -9566,8 +9566,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -9625,8 +9625,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -9677,8 +9677,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -9736,8 +9736,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -9781,8 +9781,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -9833,8 +9833,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -9885,8 +9885,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -9944,8 +9944,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -9996,8 +9996,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -10055,8 +10055,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -10100,8 +10100,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -10152,8 +10152,8 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
-      var accepts = ['*_/_*'];
+      var contentTypes = ['application/json'];
+      var accepts = ['application/json'];
       var returnType = 'String';
 
       return this.apiClient.callApi(
@@ -10201,7 +10201,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1ComponentStatus;
 
@@ -10254,7 +10254,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1Namespace;
 
@@ -10303,7 +10303,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1Namespace;
 
@@ -10363,7 +10363,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1ConfigMap;
 
@@ -10423,7 +10423,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1Endpoints;
 
@@ -10483,7 +10483,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1Event;
 
@@ -10543,7 +10543,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1LimitRange;
 
@@ -10603,7 +10603,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1PersistentVolumeClaim;
 
@@ -10659,7 +10659,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1PersistentVolumeClaim;
 
@@ -10719,7 +10719,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1Pod;
 
@@ -10791,7 +10791,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['text/plain', 'application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = 'String';
 
@@ -10847,7 +10847,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1Pod;
 
@@ -10907,7 +10907,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1PodTemplate;
 
@@ -10967,7 +10967,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1ReplicationController;
 
@@ -11023,7 +11023,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1ReplicationController;
 
@@ -11083,7 +11083,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1ResourceQuota;
 
@@ -11139,7 +11139,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1ResourceQuota;
 
@@ -11195,7 +11195,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1Scale;
 
@@ -11255,7 +11255,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1Secret;
 
@@ -11315,7 +11315,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1Service;
 
@@ -11375,7 +11375,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1ServiceAccount;
 
@@ -11431,7 +11431,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1Service;
 
@@ -11484,7 +11484,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1Node;
 
@@ -11533,7 +11533,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1Node;
 
@@ -11586,7 +11586,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1PersistentVolume;
 
@@ -11635,7 +11635,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1PersistentVolume;
 
@@ -11690,7 +11690,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1Namespace;
 
@@ -11745,7 +11745,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1Namespace;
 
@@ -11800,7 +11800,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1Namespace;
 
@@ -11862,7 +11862,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1ConfigMap;
 
@@ -11924,7 +11924,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1Endpoints;
 
@@ -11986,7 +11986,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1Event;
 
@@ -12048,7 +12048,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1LimitRange;
 
@@ -12110,7 +12110,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1PersistentVolumeClaim;
 
@@ -12172,7 +12172,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1PersistentVolumeClaim;
 
@@ -12234,7 +12234,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1Pod;
 
@@ -12296,7 +12296,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1Pod;
 
@@ -12358,7 +12358,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1PodTemplate;
 
@@ -12420,7 +12420,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1ReplicationController;
 
@@ -12482,7 +12482,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1ReplicationController;
 
@@ -12544,7 +12544,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1ResourceQuota;
 
@@ -12606,7 +12606,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1ResourceQuota;
 
@@ -12668,7 +12668,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1Scale;
 
@@ -12730,7 +12730,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1Secret;
 
@@ -12792,7 +12792,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1Service;
 
@@ -12854,7 +12854,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1ServiceAccount;
 
@@ -12916,7 +12916,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1Service;
 
@@ -12971,7 +12971,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1Node;
 
@@ -13026,7 +13026,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1Node;
 
@@ -13081,7 +13081,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1PersistentVolume;
 
@@ -13136,7 +13136,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf'];
       var returnType = V1PersistentVolume;
 
@@ -13188,7 +13188,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -13240,7 +13240,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -13292,7 +13292,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -13344,7 +13344,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -13403,7 +13403,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -13455,7 +13455,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -13521,7 +13521,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -13580,7 +13580,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -13646,7 +13646,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -13705,7 +13705,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -13771,7 +13771,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -13830,7 +13830,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -13896,7 +13896,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -13955,7 +13955,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -14021,7 +14021,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -14080,7 +14080,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -14146,7 +14146,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -14205,7 +14205,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -14271,7 +14271,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -14330,7 +14330,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -14396,7 +14396,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -14455,7 +14455,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -14521,7 +14521,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -14580,7 +14580,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -14646,7 +14646,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -14705,7 +14705,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -14771,7 +14771,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -14837,7 +14837,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -14896,7 +14896,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -14955,7 +14955,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -15014,7 +15014,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -15066,7 +15066,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -15125,7 +15125,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -15177,7 +15177,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -15229,7 +15229,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -15281,7 +15281,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -15333,7 +15333,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -15385,7 +15385,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -15437,7 +15437,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -15489,7 +15489,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -15541,7 +15541,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 
@@ -15593,7 +15593,7 @@
       };
 
       var authNames = ['BearerToken'];
-      var contentTypes = ['*_/_*'];
+      var contentTypes = ['application/json'];
       var accepts = ['application/json', 'application/yaml', 'application/vnd.kubernetes.protobuf', 'application/json;stream=watch', 'application/vnd.kubernetes.protobuf;stream=watch'];
       var returnType = VersionedEvent;
 

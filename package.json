@@ -8,6 +8,7 @@
     "test": "./node_modules/mocha/bin/mocha --recursive"
   },
   "dependencies": {
+    "minimist": "^1.2.0",
     "ssl-root-cas": "^1.2.3",
     "superagent": "1.7.1",
     "syswide-cas": "^3.0.0"
