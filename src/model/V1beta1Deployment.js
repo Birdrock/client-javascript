@@ -72,7 +72,6 @@
    * @return {module:model/V1beta1Deployment} The populated <code>V1beta1Deployment</code> instance.
    */
   exports.constructFromObject = function(data, obj) {
-    // console.log("@@@@@@    ", data);
     if (data) {
       obj = obj || new exports();
 
