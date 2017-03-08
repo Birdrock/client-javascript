@@ -76,6 +76,22 @@
      * @default true
      */
     this.cache = true;
+
+    
+    // add custom CA if present
+    if (this.ca) {
+      request.ca(this.ca);
+    }
+
+    // add private key if present
+    if (this.key) {
+      request.key(this.key);
+    }
+
+    // add client certificate chain if present
+    if (this.cert) {
+      request.cert(this.cert);
+    }
   };
 
   /**
@@ -358,6 +374,21 @@
     var url = this.buildUrl(path, pathParams);
     var request = superagent(httpMethod, url);
 
+    // add custom CA if present
+    if (this.ca) {
+      request.ca(this.ca);
+    }
+
+    // add private key if present
+    if (this.key) {
+      request.key(this.key);
+    }
+
+    // add client certificate chain if present
+    if (this.cert) {
+      request.cert(this.cert);
+    }
+
     // apply authentications
     this.applyAuthToRequest(request, authNames);
 
@@ -374,7 +405,8 @@
     request.timeout(this.timeout);
 
     var contentType = this.jsonPreferredMime(contentTypes);
-    if (contentType) {
+    // NOTE: wildcards are not supported by Kubernetes
+    if (contentType && contentType != '*/*') {
       // Issue with superagent and multipart/form-data (https://github.com/visionmedia/superagent/issues/746)
       if(contentType != 'multipart/form-data') {
         request.type(contentType);

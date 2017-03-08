@@ -9,7 +9,7 @@ const ca = fs.readFileSync(__dirname + '/ca.crt');
 
 // Unwise option to turn off all TLS security in NodeJS. NodeJS uses a predefined list of trusted CAs and ignores the system CA store. Workaround was to append CA/cert/keys in ApiClient modification.
 // process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
-const kubernetes = require('./index');
+const kubernetes = require('../kubernetes/src/io.kubernetes.js/index');
 // UnversionedPatch model file was not generated, so a stub was put in.
 
 const apiClient = new kubernetes.ApiClient();
@@ -23,25 +23,21 @@ apiClient.defaultHeaders = {
 // Core test
 
 const core = new kubernetes.CoreApi(apiClient);
-const coreApi = new kubernetes.CorevApi(apiClient);
-const extensions = new kubernetes.ExtensionsvbetaApi(apiClient);
+const coreApi = new kubernetes.CoreV1Api(apiClient);
+const extensions = new kubernetes.ExtensionsV1beta1Api(apiClient);
 const version = new kubernetes.VersionApi(apiClient);
 
 // Versions
 if (demoType['v']) {
-    core.getCoreAPIVersions(function(error, data, response) {
-        console.log(error, data);
-    });
-
-    version.getCodeVersion(function(error, data, response) {
+    core.getAPIVersions(function(error, data, response) {
         console.log(error, data);
     });
 }
 
 // Test creation of namespace and deployment
 if (demoType['c']) {
-    const testNs = "{\"kind\":\"Namespace\",\"apiVersion\":\"v1\",\"metadata\":{\"name\":\"client-test\",\"creationTimestamp\":null},\"spec\":{},\"status\":{}}\n";
-    coreApi.createCoreV1Namespace(testNs, {}, function(error, data, response) {
+    const testNs = "{\"kind\":\"Namespace\",\"apiVersion\":\"v1\",\"metadata\":{\"name\":\"client-test\"},\"spec\":{},\"status\":{}}\n";
+    coreApi.createNamespace(testNs, {}, function(error, data, response) {
         console.log(error, data);
     });
 
@@ -49,7 +45,7 @@ if (demoType['c']) {
     const testDep = "{\"kind\":\"Deployment\",\"apiVersion\":\"extensions/v1beta1\",\"metadata\":{\"name\":\"hello-world\",\"creationTimestamp\":null,\"labels\":{\"run\":\"hello-world\"}},\"spec\":{\"replicas\":1,\"selector\":{\"matchLabels\":{\"run\":\"hello-world\"}},\"template\":{\"metadata\":{\"creationTimestamp\":null,\"labels\":{\"run\":\"hello-world\"}},\"spec\":{\"containers\":[{\"name\":\"hello-world\",\"image\":\"hello-world\",\"ports\":[{\"containerPort\":8080}],\"resources\":{}}]}},\"strategy\":{}},\"status\":{}}\n";
     const deployment = kubernetes.V1beta1Deployment.constructFromObject(JSON.parse(testDep));
 
-    extensions.createExtensionsV1beta1NamespacedDeployment('default', JSON.stringify(deployment), {pretty: false}, function(error, data, response) {
+    extensions.createNamespacedDeployment('default', JSON.stringify(deployment), {pretty: false}, function(error, data, response) {
         console.log(error, data);
     });
 
@@ -58,11 +54,11 @@ if (demoType['c']) {
 
 // Read deployment
 if (demoType['r']) {
-    extensions.listExtensionsV1beta1NamespacedDeployment('default', {pretty: false}, function(error, data, response) {
+    extensions.listNamespacedDeployment('default', {pretty: false}, function(error, data, response) {
         console.log(error, data);
     });
 
-    extensions.readExtensionsV1beta1NamespacedDeployment('hello-world', 'default', {pretty: false}, function(error, data, response) {
+    extensions.readNamespacedDeployment('hello-world', 'default', {pretty: false}, function(error, data, response) {
         console.log(error, data);
     });
 }
@@ -71,12 +67,12 @@ if (demoType['r']) {
 if (demoType['d']) {
     const testDel = "{\"kind\":\"DeleteOptions\",\"apiVersion\":\"extensions/v1beta1\",\"orphanDependents\":false}\n";
     const delopts = kubernetes.V1beta1Deployment.constructFromObject(JSON.parse(testDel));
-    extensions.deleteExtensionsV1beta1NamespacedDeployment('hello-world', 'default', JSON.stringify(delopts), {pretty: false}, function(error, data, response) {
+    extensions.deleteNamespacedDeployment('hello-world', 'default', JSON.stringify(delopts), {pretty: false}, function(error, data, response) {
         console.log(error, data);
     });
 
     const delTestNs = "{\"kind\":\"DeleteOptions\",\"apiVersion\":\"v1\",\"metadata\":{\"name\":\"client-test\",\"deletionGracePeriodSeconds\":\"60\"},\"spec\":{},\"status\":{}}\n";
-    coreApi.deleteCoreV1Namespace('client-test', delTestNs, {}, function(error, data, response) {
+    coreApi.deleteNamespace('client-test', delTestNs, {}, function(error, data, response) {
         console.log(error, data);
     });
 }
